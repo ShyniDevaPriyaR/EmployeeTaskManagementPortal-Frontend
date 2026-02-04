@@ -106,7 +106,7 @@ const Login = () => {
                         </div>
                         {adminLocalError && <div className="error-message">{adminLocalError}</div>}
                         <button type="submit" className="login-btn" disabled={loading}>
-                            {loading ? 'Logging in...' : 'Login'}
+                            {loading ? 'Logging in...' : 'Admin Access'}
                         </button>
                     </form>
                 </div>
