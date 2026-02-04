@@ -1,0 +1,39 @@
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start;  Assuming left alignment as requested, or center if preferred */
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Responsive Font Size */
+@media (max-width: 768px) {
+    .navbar h1 {
+        font-size: 1.2rem;
+    }
+
+    .navbar-container {
+        padding: 0 1rem;
+    }
+}
